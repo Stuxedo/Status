@@ -17,6 +17,24 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 table fills in after the workflow's first check.
 
 <!-- githup:start -->
+<!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
+
+**No data yet** · [Live status page](https://status.stuxedo.net/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Stuxedo | [Stuxedo](https://stuxedo.com/) | No data | n/a | n/a | n/a | n/a |
+| Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | No data | n/a | n/a | n/a | n/a |
+| Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
+| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
+| Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
+| Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
+| Servers | [down1](https://down1.servers.us.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
+| Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
+| Certificates | [tiny1 certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
+| Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
+| Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
+| Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
