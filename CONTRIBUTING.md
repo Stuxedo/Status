@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stuxedo.com/logo.png" height="80" alt="Stuxedo Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxedo.com/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxedo.com/logo-dark.png"><img src="https://global.media.stuxedo.com/logo-dark.png" height="80" alt="Stuxedo Logo"></picture>
 </p>
 
 # Contributing to Status
