@@ -1,0 +1,103 @@
+# Stuxedo Status: https://status.stuxedo.net
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+# Web hosting has its own status page, stuxedostatus.com; status.stuxedo.com will be the landing
+# page for both.
+site:
+  name: Stuxedo Status
+  description: Live status of Stuxedo's servers and websites, checked every 5 minutes.
+  # GitHup takes one logo; Stuxedo's neon mark has a dark outline, so it reads on both themes.
+  logo: https://global.media.stuxedo.com/logo-light.png
+  favicon: https://global.media.stuxedo.com/icon-light.png
+  # Stuxedo's neon green; GitHup darkens it on the light theme until it reads.
+  accent: "#4BF708"
+  url: https://status.stuxedo.net/
+  footer_links:
+    - label: Web hosting status
+      url: https://stuxedostatus.com/
+    - label: Server regions
+      url: https://regionpage.stuxedo.net/
+    - label: Report a problem
+      url: https://github.com/Stuxedo/Status/issues/new
+
+legal:
+  operator: Stuxedo
+  company: "Stuxedo is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@stuxedo.com
+  host: GitHub Pages
+  effective: 9 October 2026
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 15000  # ms; GitHup's default. Slower (but otherwise good) answers show as degraded
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history. The servers,
+# their certificate checks and the Stuxedo site moved here from Stux.Group Status on
+# 9 October 2026 with their history (data/<slug>/).
+groups:
+  - name: Stuxedo
+    description: The Stuxedo website and the media it relies on.
+    monitors:
+      - name: Stuxedo
+        url: https://stuxedo.com/
+        description: Hosting and cloud services
+      - name: Stuxedo Media CDN
+        url: https://global.media.stuxedo.com/icon.png
+        description: Shared logos and images used across every Stuxedo site
+
+  # Each server's instance page. The Stuxedo and Stux.Cloud region pages read these monitors
+  # (slugs robo1, tiny1, kitt1, mixr1, down1) for their live status.
+  - name: Servers
+    description: Each server's instance page, by region.
+    monitors:
+      - name: robo1
+        url: https://robo1.servers.uk.stuxedo.net/
+        description: UK
+      - name: tiny1
+        url: https://tiny1.servers.uk.stuxedo.net/
+        description: UK
+      - name: kitt1
+        url: https://kitt1.servers.ca.stuxedo.net/
+        description: Canada
+      - name: mixr1
+        url: https://mixr1.servers.es.stuxedo.net/
+        description: Spain
+      - name: down1
+        url: https://down1.servers.us.stuxedo.net/
+        description: United States
+
+  # Every server checks daily that each certificate it uses has more than 21 days left
+  # (/usr/local/sbin/cert-expiry-check) and publishes certificates-ok.txt while it does.
+  - name: Certificates
+    description: Whether every certificate on each server has more than 21 days left.
+    monitors:
+      - name: robo1 certificates
+        url: https://robo1.servers.uk.stuxedo.net/certificates-ok.txt
+        description: robo1 (UK)
+      - name: tiny1 certificates
+        url: https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt
+        description: tiny1 (UK), including Sm.lol's Cloudflare Origin Certificate
+      - name: kitt1 certificates
+        url: https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt
+        description: kitt1 (CA), including Kittens
+      - name: mixr1 certificates
+        url: https://mixr1.servers.es.stuxedo.net/certificates-ok.txt
+        description: mixr1 (ES), including Termix
+      - name: down1 certificates
+        url: https://down1.servers.us.stuxedo.net/certificates-ok.txt
+        description: down1 (US)
+
+  - name: Elsewhere
+    description: Checked on their own status pages.
+    links:
+      - name: Stuxedo Web Hosting Status
+        url: https://stuxedostatus.com/
+        description: The web hosting platform
+      - name: Stux.Group Status
+        url: https://status.stux.group/
+        description: Stux.Group's websites and services
+
+incidents:
+  labels: [status]
