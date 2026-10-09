@@ -22,7 +22,7 @@ You need Python 3.11+ and nothing else.
   [GitHup docs](https://githup.stux.group/docs/). Only add sites Stuxedo runs.
 - **The status page itself is GitHup's**, including the legal pages and 404. Change how it
   looks or works in GitHup, not here.
-- **Brand.** Stuxedo is neon green (`#4bf708`). GitHup takes one accent, so `site.accent` is `#4BF708` and GitHup darkens it on the light theme until it reads; the logo is `logo-light.png`, whose dark outline reads on both themes.
+- **Brand.** Stuxedo is neon green (`#4bf708`). GitHup takes one accent, so `site.accent` is `#4BF708` and GitHup darkens it on the light theme until it reads; the header shows just the icon, `icon-light.png`, whose dark outline reads on both themes.
 - **Slugs are an interface.** The Stuxedo and Stux.Cloud region pages read the server monitors by slug (`robo1`, `tiny1`, `kitt1`, `mixr1`, `down1`); renaming one breaks their live status.
 - **Legal pages.** The `legal:` block in `.githup.yml` drives **Boring Legal Stuff** at `/legal/`.
   Keep it accurate.

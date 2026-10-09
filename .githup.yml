@@ -6,8 +6,9 @@
 site:
   name: Stuxedo Status
   description: Live status of Stuxedo's servers and websites, checked every 5 minutes.
-  # GitHup takes one logo; Stuxedo's neon mark has a dark outline, so it reads on both themes.
-  logo: https://global.media.stuxedo.com/logo-light.png
+  # Just the tuxedo-cat icon in the header, not the full logo. GitHup takes one image; the neon
+  # mark has a dark outline, so it reads on both themes.
+  logo: https://global.media.stuxedo.com/icon-light.png
   favicon: https://global.media.stuxedo.com/icon-light.png
   # Stuxedo's neon green; GitHup darkens it on the light theme until it reads.
   accent: "#4BF708"
