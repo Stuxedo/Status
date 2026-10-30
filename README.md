@@ -43,7 +43,7 @@ Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times,
 
 - **Stuxedo:** [stuxedo.com](https://stuxedo.com) and the Stuxedo media CDN
 - **Servers:** each server's instance page (robo1 and tiny1 in the UK, kitt1 in Canada, mixr1 in
-  Spain, down1 in the United States). The [Stuxedo](https://regionpage.stuxedo.net) and
+  Spain, mixr2 in Finland, down1 in the United States). The [Stuxedo](https://regionpage.stuxedo.net) and
   [Stux.Cloud](https://regionpage.stux.cloud) region pages read these monitors (by slug) for their
   live server status
 - **Certificates:** each server checks daily that every certificate it uses has more than 21

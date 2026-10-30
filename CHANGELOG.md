@@ -5,6 +5,12 @@ All notable changes to Stuxedo Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.10.30
+
+### Added
+
+- **mixr2**, the server in Finland (`mixr2.servers.fi.stuxedo.net`): its instance page under Servers, and its certificate check (`certificates-ok.txt`) under Certificates. The region pages read the `mixr2` monitor for its live status.
+
 ## v26.10.23
 
 ### Added

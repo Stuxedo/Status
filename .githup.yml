@@ -49,7 +49,7 @@ groups:
         description: Shared logos and images used across every Stuxedo site
 
   # Each server's instance page. The Stuxedo and Stux.Cloud region pages read these monitors
-  # (slugs robo1, tiny1, kitt1, mixr1, down1) for their live status.
+  # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1) for their live status.
   - name: Servers
     description: Each server's instance page, by region.
     monitors:
@@ -65,6 +65,9 @@ groups:
       - name: mixr1
         url: https://mixr1.servers.es.stuxedo.net/
         description: Spain
+      - name: mixr2
+        url: https://mixr2.servers.fi.stuxedo.net/
+        description: Finland
       - name: down1
         url: https://down1.servers.us.stuxedo.net/
         description: United States
@@ -86,6 +89,9 @@ groups:
       - name: mixr1 certificates
         url: https://mixr1.servers.es.stuxedo.net/certificates-ok.txt
         description: mixr1 (ES), including Termix
+      - name: mixr2 certificates
+        url: https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt
+        description: mixr2 (Finland)
       - name: down1 certificates
         url: https://down1.servers.us.stuxedo.net/certificates-ok.txt
         description: down1 (US)
