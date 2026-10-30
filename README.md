@@ -50,6 +50,7 @@ Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times,
   live server status
 - **Certificates:** each server checks daily that every certificate it uses has more than 21
   days left, and publishes `certificates-ok.txt` while it does
+- **New servers** are added on their own: the daily **Servers sync** workflow (`.github/workflows/servers-sync.yml`, `scripts/sync-servers.py`) reads the `*.servers.<cc>.stuxedo.net` records from Cloudflare and gives any new server both monitors. A country that isn't a region on the region pages yet fails the run; a monitored server with no record is only warned about. It needs the `CLOUDFLARE_DNS_TOKEN` secret (Zone → DNS → Read on stuxedo.net)
 - Web hosting has its own status page, [stuxedostatus.com](https://stuxedostatus.com), linked
   under Elsewhere. `status.stuxedo.com` will become the landing page for both
 
