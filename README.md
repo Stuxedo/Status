@@ -23,22 +23,22 @@ table fills in after the workflow's first check.
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 100.00% | 98.18% | 99.54% | 427 ms |
-| Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | Up | 100.00% | 100.00% | 100.00% | 267 ms |
-| Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 428 ms |
-| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.72% | 426 ms |
-| Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 225 ms |
-| Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 460 ms |
-| Servers | [mixr2](https://mixr2.servers.fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 530 ms |
-| Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 209 ms |
-| Servers | [soci1](https://soci1.servers.fr.stuxedo.net/) | No data | n/a | n/a | n/a | n/a |
-| Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 380 ms |
-| Certificates | [tiny1 certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.72% | 387 ms |
-| Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 178 ms |
-| Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 94.54% | 98.91% | 423 ms |
-| Certificates | [mixr2 certificates](https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 477 ms |
-| Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 171 ms |
-| Certificates | [soci1 certificates](https://soci1.servers.fr.stuxedo.net/certificates-ok.txt) | No data | n/a | n/a | n/a | n/a |
+| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 100.00% | 98.14% | 99.54% | 390 ms |
+| Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | Up | 100.00% | 100.00% | 100.00% | 235 ms |
+| Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 390 ms |
+| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.72% | 390 ms |
+| Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 173 ms |
+| Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 424 ms |
+| Servers | [mixr2](https://mixr2.servers.fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 488 ms |
+| Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 164 ms |
+| Servers | [soci1](https://soci1.servers.fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 448 ms |
+| Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 362 ms |
+| Certificates | [tiny1 certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.72% | 363 ms |
+| Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 152 ms |
+| Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 94.44% | 98.90% | 405 ms |
+| Certificates | [mixr2 certificates](https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 459 ms |
+| Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 145 ms |
+| Certificates | [soci1 certificates](https://soci1.servers.fr.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 385 ms |
 <!-- githup:end -->
 
 ## What's monitored
