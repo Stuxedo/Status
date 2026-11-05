@@ -49,7 +49,7 @@ groups:
         description: Shared logos and images used across every Stuxedo site
 
   # Each server's instance page. The Stuxedo and Stux.Cloud region pages read these monitors
-  # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1) for their live status.
+  # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1, soci1) for their live status.
   - name: Servers
     description: Each server's instance page, by region.
     monitors:
@@ -71,6 +71,9 @@ groups:
       - name: down1
         url: https://down1.servers.us.stuxedo.net/
         description: United States
+      - name: soci1
+        url: https://soci1.servers.fr.stuxedo.net/
+        description: France
 
   # Every server checks daily that each certificate it uses has more than 21 days left
   # (/usr/local/sbin/cert-expiry-check) and publishes certificates-ok.txt while it does.
@@ -95,6 +98,9 @@ groups:
       - name: down1 certificates
         url: https://down1.servers.us.stuxedo.net/certificates-ok.txt
         description: down1 (US)
+      - name: soci1 certificates
+        url: https://soci1.servers.fr.stuxedo.net/certificates-ok.txt
+        description: soci1 (France)
 
   - name: Elsewhere
     description: Checked on their own status pages.
