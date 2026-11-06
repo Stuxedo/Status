@@ -5,11 +5,13 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## v26.11.06-3
+## v26.11.06-4
 
 ### Added
 
 - **Every live Stuxedo site is monitored**, not just stuxedo.com: Stuxedo Status (status.stuxedo.com), the Control Panel, Webmail, Website Builder and Support under Stuxedo; a **Region websites** group (uk, ca, es, fi, us and fr .stuxedo.net); and a **Templates** group (the Region Page, Instance Page, Soonpage and Maintenancepage, their v1 snapshots, and the github.io redirect). Stuxedo Web Status (status.stuxedo.dev) joins once it serves over HTTPS.
+
+## v26.11.06-3
 
 ### Changed
 
