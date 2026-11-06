@@ -1,5 +1,5 @@
 #!/bin/bash
-# Stuxedo Status - Local dev server
+# Stuxedo Server Status - Local dev server
 # Usage: ./dev-server.sh [--no-dev-mode] [port]
 #   port            default: 8000
 #   --no-dev-mode   render the status page exactly as production would
@@ -48,8 +48,8 @@ export PYTHONPATH="$GITHUP" PYTHONDONTWRITEBYTECODE=1
     --incidents-file .dev/data/incidents.json --out .dev/public --no-deploy
 
 if [ "$DEV_MODE" = "1" ]; then
-    echo "Stuxedo Status (DEV_MODE=1) at http://127.0.0.1:$PORT/"
+    echo "Stuxedo Server Status (DEV_MODE=1) at http://127.0.0.1:$PORT/"
 else
-    echo "Stuxedo Status (production rendering) at http://127.0.0.1:$PORT/"
+    echo "Stuxedo Server Status (production rendering) at http://127.0.0.1:$PORT/"
 fi
 "$PY" -m http.server "$PORT" --bind 127.0.0.1 --directory .dev/public

@@ -1,9 +1,15 @@
 # Changelog
 
-All notable changes to Stuxedo Status are documented here.
+All notable changes to Stuxedo Server Status are documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## v26.11.06-2
+
+### Changed
+
+- **The page is now called Stuxedo Server Status** (it was Stuxedo Status), matching its button on the new Stuxedo Status landing page, which sends you here for the servers or to Stuxedo Web Status for websites and hosting. The README's header, the badge and the scripts use the new name too.
 
 ## v26.11.06-1
 

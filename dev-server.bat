@@ -1,6 +1,6 @@
 @echo off
 setlocal
-REM Stuxedo Status - Local dev server (Windows)
+REM Stuxedo Server Status - Local dev server (Windows)
 REM Usage: dev-server.bat [--no-dev-mode] [port]
 REM   port            default: 8000
 REM   --no-dev-mode   render the status page exactly as production would
@@ -52,8 +52,8 @@ python -m githup demo --config .githup.yml --data-dir .dev/data || exit /b 1
 python -m githup site --config .githup.yml --data-dir .dev/data --incidents-file .dev/data/incidents.json --out .dev/public --no-deploy || exit /b 1
 
 if "%DEV_MODE%"=="1" (
-    echo Stuxedo Status ^(DEV_MODE=1^) at http://127.0.0.1:%PORT%/
+    echo Stuxedo Server Status ^(DEV_MODE=1^) at http://127.0.0.1:%PORT%/
 ) else (
-    echo Stuxedo Status ^(production rendering^) at http://127.0.0.1:%PORT%/
+    echo Stuxedo Server Status ^(production rendering^) at http://127.0.0.1:%PORT%/
 )
 python -m http.server %PORT% --bind 127.0.0.1 --directory .dev/public
