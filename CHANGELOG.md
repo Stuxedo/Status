@@ -7,6 +7,10 @@ and this project adheres to [Date Versioning](https://datevers.ing) since v26.10
 
 ## v26.11.06-3
 
+### Added
+
+- **Every live Stuxedo site is monitored**, not just stuxedo.com: Stuxedo Status (status.stuxedo.com), the Control Panel, Webmail, Website Builder and Support under Stuxedo; a **Region websites** group (uk, ca, es, fi, us and fr .stuxedo.net); and a **Templates** group (the Region Page, Instance Page, Soonpage and Maintenancepage, their v1 snapshots, and the github.io redirect). Stuxedo Web Status (status.stuxedo.dev) joins once it serves over HTTPS.
+
 ### Changed
 
 - **Work happens on `test`.** Changes reach `main` only through a pull request from `test`, and releases are made and tagged on `test`. CONTRIBUTING has a Branches section, and the README's Versioning section says so.

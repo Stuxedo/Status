@@ -48,6 +48,21 @@ groups:
       - name: Stuxedo Media CDN
         url: https://global.media.stuxedo.com/icon.png
         description: Shared logos and images used across every Stuxedo site
+      - name: Stuxedo Status
+        url: https://status.stuxedo.com/
+        description: The status landing page (Web Status or Server Status)
+      - name: Stuxedo Control Panel
+        url: https://dash.stuxedo.com/
+        description: The hosting control panel customers sign in to
+      - name: Stuxedo Webmail
+        url: https://mash.stuxedo.com/
+        description: Webmail for hosted email
+      - name: Stuxedo Website Builder
+        url: https://builder.stuxedo.com/
+        description: The website builder
+      - name: Stuxedo Support
+        url: https://support.stuxedo.com/
+        description: Help articles and support
 
   # Each server's instance page. The Stuxedo and Stux.Cloud region pages read these monitors
   # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1, soci1) for their live status.
@@ -102,6 +117,62 @@ groups:
       - name: soci1 certificates
         url: https://soci1.servers.fr.stuxedo.net/certificates-ok.txt
         description: soci1 (France)
+
+  # Each region's website, served by that region's own server. It frames regionpage.stuxedo.net.
+  - name: Region websites
+    description: Each Stuxedo region's website, served by the region's own server.
+    monitors:
+      - name: Stuxedo UK
+        url: https://uk.stuxedo.net/
+        description: United Kingdom
+      - name: Stuxedo Canada
+        url: https://ca.stuxedo.net/
+        description: Canada
+      - name: Stuxedo Spain
+        url: https://es.stuxedo.net/
+        description: Spain
+      - name: Stuxedo Finland
+        url: https://fi.stuxedo.net/
+        description: Finland
+      - name: Stuxedo United States
+        url: https://us.stuxedo.net/
+        description: United States
+      - name: Stuxedo France
+        url: https://fr.stuxedo.net/
+        description: France
+
+  # Stuxedo's page templates on GitHub Pages, the original v1 designs kept as snapshots, and the
+  # github.io redirect.
+  - name: Templates
+    description: Stuxedo's page templates and their v1 snapshots.
+    monitors:
+      - name: Stuxedo Region Page
+        url: https://regionpage.stuxedo.net/
+        description: The server regions, with live status for each server
+      - name: Stuxedo Instance Page
+        url: https://instancepage.stuxedo.net/
+        description: The page each server's own address shows
+      - name: Stuxedo Soonpage
+        url: https://soonpage.stuxedo.net/
+        description: The "coming soon" page
+      - name: Stuxedo Maintenancepage
+        url: https://maintenancepage.stuxedo.net/
+        description: The maintenance page
+      - name: Stuxedo Region Page v1
+        url: https://regionpage-v1.stuxedo.net/
+        description: The original green design, kept as a snapshot
+      - name: Stuxedo Instance Page v1
+        url: https://instancepage-v1.stuxedo.net/
+        description: The original green design, kept as a snapshot
+      - name: Stuxedo Soonpage v1
+        url: https://soonpage-v1.stuxedo.net/
+        description: The original green design, kept as a snapshot
+      - name: Stuxedo Maintenancepage v1
+        url: https://maintenancepage-v1.stuxedo.net/
+        description: The original green design, kept as a snapshot
+      - name: Stuxedo GitHub Pages Redirect
+        url: https://stuxedo.github.io/
+        description: Sends stuxedo.github.io to github.com/Stuxedo
 
   - name: Elsewhere
     description: Checked on their own status pages.

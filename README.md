@@ -45,7 +45,12 @@ table fills in after the workflow's first check.
 
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
-- **Stuxedo:** [stuxedo.com](https://stuxedo.com) and the Stuxedo media CDN
+- **Stuxedo:** [stuxedo.com](https://stuxedo.com), the Stuxedo media CDN, [Stuxedo Status](https://status.stuxedo.com)
+  (the landing page), and the control panel, webmail, website builder and support sites
+- **Region websites:** each region's website (uk, ca, es, fi, us and fr .stuxedo.net), served by that region's own
+  server
+- **Templates:** the Region Page, Instance Page, Soonpage and Maintenancepage on GitHub Pages, their v1 snapshots,
+  and the stuxedo.github.io redirect
 - **Servers:** each server's instance page (robo1 and tiny1 in the UK, kitt1 in Canada, mixr1 in
   Spain, mixr2 in Finland, down1 in the United States, soci1 in France). The [Stuxedo](https://regionpage.stuxedo.net) and
   [Stux.Cloud](https://regionpage.stux.cloud) region pages read these monitors (by slug) for their
