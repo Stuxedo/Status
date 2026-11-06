@@ -5,6 +5,16 @@ All notable changes to Stuxedo Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06
+
+### Added
+
+- **Its own badge icon** as the logo and favicon: Stuxedo's tuxedo cat on a round avatar with a heartbeat badge in the bottom-right corner, in Stuxedo's neon green, instead of the plain brand icon. It's built by `scripts/badge-icons.py` (a copy of StuxGroup/Services' script in Stuxedo's colours) into `assets/img/stuxedo-status-icon.png`, which the Status workflow now copies into the site.
+
+### Changed
+
+- The README's header shows the badge icon and the page's name, **Stuxedo Status**.
+
 ## v26.11.05
 
 ### Added

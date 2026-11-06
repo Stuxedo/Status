@@ -6,10 +6,11 @@
 site:
   name: Stuxedo Status
   description: Live status of Stuxedo's servers and websites, checked every 5 minutes.
-  # Just the tuxedo-cat icon in the header, not the full logo. GitHup takes one image; the neon
-  # mark has a dark outline, so it reads on both themes.
-  logo: https://global.media.stuxedo.com/icon-light.png
-  favicon: https://global.media.stuxedo.com/icon-light.png
+  # Its own badge icon: Stuxedo's tuxedo cat with a heartbeat badge, on a dark round avatar so it reads
+  # on both themes. Built by scripts/badge-icons.py into assets/img/, which the Status workflow copies
+  # into the site.
+  logo: https://status.stuxedo.net/assets/img/stuxedo-status-icon.png
+  favicon: https://status.stuxedo.net/assets/img/stuxedo-status-icon.png
   # Stuxedo's neon green; GitHup darkens it on the light theme until it reads.
   accent: "#4BF708"
   url: https://status.stuxedo.net/
