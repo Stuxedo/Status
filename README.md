@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="assets/img/stuxedo-status-icon.png" height="100" alt="Stuxedo Status icon">
+  <img src="assets/img/stuxedo-status-icon.png" height="100" alt="Stuxedo Server Status icon">
 </p>
 
-# Stuxedo Status
+# Stuxedo Server Status
 
 ### *Live status of Stuxedo's servers and websites, powered by [GitHup](https://githup.stux.group).*
 
 **Status page:** [status.stuxedo.net](https://status.stuxedo.net)
 
 <!-- A live badge: reads the overall status straight from data/summary.json (after the first check). -->
-[![Stuxedo status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxedo%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stuxedo.net)
+[![Stuxedo Server Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxedo%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stuxedo.net)
 
 ## Current status
 

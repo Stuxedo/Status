@@ -1,10 +1,10 @@
-# Stuxedo Status: https://status.stuxedo.net
+# Stuxedo Server Status: https://status.stuxedo.net
 # Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
 # https://github.com/StuxGroup/GitHup
 # Web hosting has its own status page, stuxedostatus.com; status.stuxedo.com will be the landing
 # page for both.
 site:
-  name: Stuxedo Status
+  name: Stuxedo Server Status
   description: Live status of Stuxedo's servers and websites, checked every 5 minutes.
   # Its own badge icon: Stuxedo's tuxedo cat with a heartbeat badge, on a dark round avatar so it reads
   # on both themes. Built by scripts/badge-icons.py into assets/img/, which the Status workflow copies
