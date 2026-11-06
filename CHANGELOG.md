@@ -5,6 +5,12 @@ All notable changes to Stuxedo Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06-1
+
+### Added
+
+- **Stux.Cloud Status** (https://status.stux.cloud/) under Elsewhere: Stux.Cloud's websites and pages. It links back here for the servers behind every Stux.Cloud region.
+
 ## v26.11.06
 
 ### Added
