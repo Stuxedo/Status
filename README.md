@@ -1,8 +1,8 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxedo.com/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxedo.com/logo-dark.png"><img src="https://global.media.stuxedo.com/logo-dark.png" height="100" alt="Stuxedo Logo"></picture>
+  <img src="assets/img/stuxedo-status-icon.png" height="100" alt="Stuxedo Status icon">
 </p>
 
-# Status
+# Stuxedo Status
 
 ### *Live status of Stuxedo's servers and websites, powered by [GitHup](https://githup.stux.group).*
 

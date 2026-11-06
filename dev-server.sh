@@ -1,5 +1,5 @@
 #!/bin/bash
-# Status - Local dev server
+# Stuxedo Status - Local dev server
 # Usage: ./dev-server.sh [--no-dev-mode] [port]
 #   port            default: 8000
 #   --no-dev-mode   render the status page exactly as production would

@@ -1,6 +1,6 @@
 @echo off
 setlocal
-REM Status - Local dev server (Windows)
+REM Stuxedo Status - Local dev server (Windows)
 REM Usage: dev-server.bat [--no-dev-mode] [port]
 REM   port            default: 8000
 REM   --no-dev-mode   render the status page exactly as production would

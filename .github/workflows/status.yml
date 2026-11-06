@@ -13,6 +13,7 @@ on:
     paths:
       - .githup.yml
       - .github/workflows/status.yml
+      - assets/**
 
 permissions:
   contents: write   # commit monitoring data
@@ -77,6 +78,9 @@ jobs:
           mode: site
           deploy: "false"
           site-dir: _site
+      # The page's own logo and favicon (assets/img/stuxedo-status-icon.png).
+      - name: Add the assets
+        run: cp -r assets _site/
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

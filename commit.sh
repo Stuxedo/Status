@@ -1,5 +1,5 @@
 #!/bin/bash
-# Status - Git commit + tag script
+# Stuxedo Status - Git commit + tag script
 # Commits whatever's staged/unstaged and tags it with the version currently
 # in VERSION.md, read dynamically so this script never goes stale the way a
 # hardcoded version number does.

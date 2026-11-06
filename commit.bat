@@ -1,6 +1,6 @@
 @echo off
 setlocal
-REM Status - Git commit + tag script (Windows)
+REM Stuxedo Status - Git commit + tag script (Windows)
 REM Commits whatever's staged/unstaged and tags it with the version
 REM currently in VERSION.md, read dynamically so this script never goes
 REM stale the way a hardcoded version number does.
