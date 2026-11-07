@@ -3,8 +3,8 @@
 Every server has an A record <name>.servers.<cc>.stuxedo.net in the stuxedo.net zone. A server that has a
 record but no monitor in .githup.yml gets two: "<name>" (its instance page, under Servers) and "<name>
 certificates" (its certificates-ok.txt, under Certificates). The region pages read the "<name>" monitor. The
-README's list is updated, and a release is written: CHANGELOG.md entry and VERSION.md. The workflow commits,
-tags and deploys it.
+README's list is updated, and a release is written: CHANGELOG.md entry and VERSION.md. The workflow commits
+and tags it on test and opens a test -> main PR; the page rebuilds when that's merged.
 
 The country's name comes from Stuxedo/regionpage's assets/regions.js. A server in a country that isn't a region
 there yet fails the run (add it with the deploy-stuxedo-server skill). A monitored server with no record is only
