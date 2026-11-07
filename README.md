@@ -80,7 +80,7 @@ Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times,
   live server status
 - **Certificates:** each server checks daily that every certificate it uses has more than 21
   days left, and publishes `certificates-ok.txt` while it does
-- **New servers** are added on their own: the daily **Servers sync** workflow (`.github/workflows/servers-sync.yml`, `scripts/sync-servers.py`) reads the `*.servers.<cc>.stuxedo.net` records from Cloudflare and gives any new server both monitors. A country that isn't a region on the region pages yet fails the run; a monitored server with no record is only warned about. It needs the `CLOUDFLARE_DNS_TOKEN` secret (Zone → DNS → Read on stuxedo.net)
+- **New servers** are added on their own: the daily **Servers sync** workflow (`.github/workflows/servers-sync.yml`, `scripts/sync-servers.py`) reads the `*.servers.<cc>.stuxedo.net` records from Cloudflare and gives any new server both monitors, released on `test` with a `test` → `main` PR (it never pushes to `main`; the monitors go live when the PR is merged). A country that isn't a region on the region pages yet fails the run; a monitored server with no record is only warned about. It needs the `CLOUDFLARE_DNS_TOKEN` secret (Zone → DNS → Read on stuxedo.net)
 - Web hosting has its own status page, [Stuxedo Web Status](https://status.stuxedo.dev), linked under Elsewhere
   and in the footer. [status.stuxedo.com](https://status.stuxedo.com) is the landing page for both (stuxedostatus.com
   redirects there)
@@ -142,8 +142,7 @@ Releases are made and tagged on `test`, and go live when its pull request into `
 
 ## License
 
-&copy; 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or
-redistribution, see [LICENSE](LICENSE).
+Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
 
 ---
 

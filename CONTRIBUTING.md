@@ -23,7 +23,11 @@ You need Python 3.11+ and nothing else.
 - **The status page itself is GitHup's**, including the legal pages and 404. Change how it
   looks or works in GitHup, not here.
 - **Brand.** Stuxedo is neon green (`#4bf708`). GitHup takes one accent, so `site.accent` is `#4BF708` and GitHup darkens it on the light theme until it reads; the logo and favicon are the page's own badge icon, `assets/img/stuxedo-status-icon.png` (Stuxedo's mark with a heartbeat badge on a dark round avatar, so it reads on both themes). Rebuild it with `python -I scripts/badge-icons.py stuxedo <icon-light.png> assets/img` (Pillow); the Status workflow copies `assets/` into the site, served at `https://status.stuxedo.net/assets/img/stuxedo-status-icon.png`.
-- **Slugs are an interface.** The Stuxedo and Stux.Cloud region pages read the server monitors by slug (`robo1`, `tiny1`, `kitt1`, `mixr1`, `down1`); renaming one breaks their live status.
+- **The `stuxedo` slug is an interface.** GitHup makes each monitor's slug from its name, so the **Stuxedo**
+  monitor is `stuxedo`. The Stuxedo badge on [services.stux.group](https://services.stux.group) reads its status
+  from `data/summary.json` by that slug. Don't rename that monitor; if it has to change, update that reader in
+  the same go.
+- **Server slugs are an interface too.** The Stuxedo and Stux.Cloud region pages read the server monitors by slug (`robo1`, `tiny1`, `kitt1`, `mixr1`, `down1`); renaming one breaks their live status.
 - **Legal pages.** The `legal:` block in `.githup.yml` drives **Boring Legal Stuff** at `/legal/`.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.

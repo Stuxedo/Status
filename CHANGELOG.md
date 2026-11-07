@@ -5,6 +5,14 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.07-2
+
+### Changed
+
+- **Servers sync no longer pushes to `main`.** When it finds a new server it releases and tags it on `test` and opens a `test` → `main` PR, or leaves a notice if one is already open. If it can't open the PR, it leaves a warning with the compare link. The new monitors go live when the PR is merged.
+- **CONTRIBUTING says the `stuxedo` slug is an interface.** services.stux.group's Stuxedo badge reads the **Stuxedo** monitor by that slug, so renaming the monitor breaks the badge.
+- **All rights reserved.** The License section now reads "Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution", pointing at `LICENSE`.
+
 ## v26.11.07-1
 
 ### Changed
