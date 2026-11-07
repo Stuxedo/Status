@@ -1,0 +1,40 @@
+# Reads Stuxedo Web Status (the web hosting status page) every 5 minutes and saves its overall state to
+# data/web-status.json (scripts/web-status.py), which status.stuxedo.com's Web Status button shows as a live
+# badge. It commits only when the state or headline changes. Also runs by hand from the Actions tab.
+name: Web status
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit data/web-status.json
+
+# Shares Status's group, so this commit and GitHup's data commits never race.
+concurrency:
+  group: status
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - id: read
+        name: Read the web hosting status page
+        run: echo "result=$(python3 scripts/web-status.py)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the new state
+        if: steps.read.outputs.result == 'changed'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/web-status.json
+          git commit -m "Web status: update"
+          git pull --rebase --quiet origin "${{ github.event.repository.default_branch }}"
+          git push origin HEAD:"${{ github.event.repository.default_branch }}"

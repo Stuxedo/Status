@@ -5,6 +5,19 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.07-1
+
+### Changed
+
+- **Stuxedo Web Status links point to status.stuxedo.dev**, its new address: the footer link and the Elsewhere link (now named Stuxedo Web Status), the README and the config comment. stuxedostatus.com now redirects to status.stuxedo.com, the landing page, so the Web status workflow reads status.stuxedo.dev only.
+
+## v26.11.07
+
+### Added
+
+- **Stuxedo Web Status's overall state for status.stuxedo.com.** The new **Web status** workflow (`.github/workflows/web-status.yml`, `scripts/web-status.py`) reads the web hosting status page every 5 minutes and saves its state and headline to `data/web-status.json`, committing only when they change. The status landing page shows it as a live badge on its Web Status button. The page is rendered on its server and can't be read cross-site from a browser, so it's read here instead.
+- **Stuxedo Web Status (status.stuxedo.dev) is monitored** under Stuxedo, now that it serves over HTTPS.
+
 ## v26.11.06-4
 
 ### Added
