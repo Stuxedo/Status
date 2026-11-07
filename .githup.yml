@@ -1,8 +1,8 @@
 # Stuxedo Server Status: https://status.stuxedo.net
 # Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
 # https://github.com/StuxGroup/GitHup
-# Web hosting has its own status page, stuxedostatus.com; status.stuxedo.com will be the landing
-# page for both.
+# Web hosting has its own status page, Stuxedo Web Status (status.stuxedo.dev); status.stuxedo.com is the
+# landing page for both.
 site:
   name: Stuxedo Server Status
   description: Live status of Stuxedo's servers and websites, checked every 5 minutes.
@@ -15,8 +15,8 @@ site:
   accent: "#4BF708"
   url: https://status.stuxedo.net/
   footer_links:
-    - label: Web hosting status
-      url: https://stuxedostatus.com/
+    - label: Stuxedo Web Status
+      url: https://status.stuxedo.dev/
     - label: Server regions
       url: https://regionpage.stuxedo.net/
     - label: Report a problem
@@ -180,8 +180,8 @@ groups:
   - name: Elsewhere
     description: Checked on their own status pages.
     links:
-      - name: Stuxedo Web Hosting Status
-        url: https://stuxedostatus.com/
+      - name: Stuxedo Web Status
+        url: https://status.stuxedo.dev/
         description: The web hosting platform
       - name: Stux.Group Status
         url: https://status.stux.group/
