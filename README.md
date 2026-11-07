@@ -66,7 +66,10 @@ table fills in after the workflow's first check.
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
 - **Stuxedo:** [stuxedo.com](https://stuxedo.com), the Stuxedo media CDN, [Stuxedo Status](https://status.stuxedo.com)
-  (the landing page), and the control panel, webmail, website builder and support sites
+  (the landing page), [Stuxedo Web Status](https://status.stuxedo.dev), and the control panel, webmail, website
+  builder and support sites
+- **Web status:** the **Web status** workflow saves Stuxedo Web Status's overall state to `data/web-status.json`
+  every 5 minutes (only committing changes), for the badge on status.stuxedo.com's Web Status button
 - **Region websites:** each region's website (uk, ca, es, fi, us and fr .stuxedo.net), served by that region's own
   server
 - **Templates:** the Region Page, Instance Page, Soonpage and Maintenancepage on GitHub Pages, their v1 snapshots,
@@ -78,8 +81,9 @@ Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times,
 - **Certificates:** each server checks daily that every certificate it uses has more than 21
   days left, and publishes `certificates-ok.txt` while it does
 - **New servers** are added on their own: the daily **Servers sync** workflow (`.github/workflows/servers-sync.yml`, `scripts/sync-servers.py`) reads the `*.servers.<cc>.stuxedo.net` records from Cloudflare and gives any new server both monitors. A country that isn't a region on the region pages yet fails the run; a monitored server with no record is only warned about. It needs the `CLOUDFLARE_DNS_TOKEN` secret (Zone → DNS → Read on stuxedo.net)
-- Web hosting has its own status page, [stuxedostatus.com](https://stuxedostatus.com), linked
-  under Elsewhere. `status.stuxedo.com` will become the landing page for both
+- Web hosting has its own status page, [Stuxedo Web Status](https://status.stuxedo.dev), linked under Elsewhere
+  and in the footer. [status.stuxedo.com](https://status.stuxedo.com) is the landing page for both (stuxedostatus.com
+  redirects there)
 - Elsewhere also links [Stux.Group Status](https://status.stux.group) and
   [Stux.Cloud Status](https://status.stux.cloud), which covers Stux.Cloud's websites and pages
 
