@@ -1,4 +1,5 @@
-# Reads Stuxedo Web Status (the web hosting status page) every 5 minutes and saves its overall state to
+# Reads Stuxedo Web Status (the web hosting status page) on a 5-minute schedule
+# (best-effort; GitHub often runs it less often) and saves its overall state to
 # data/web-status.json (scripts/web-status.py), which status.stuxedo.com's Web Status button shows as a live
 # badge. It commits only when the state or headline changes. Also runs by hand from the Actions tab.
 name: Web status
