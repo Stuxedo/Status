@@ -64,13 +64,13 @@ table fills in after the workflow's first check.
 
 ## What's monitored
 
-Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
+Checked regularly: the workflow asks GitHub for a run every 5 minutes, but GitHub runs schedules best-effort and often less often (when it's late, a run checks up to 4 times, 5 minutes apart, to fill the gap). The status page shows the real check rhythm ("checked about every … (last 24 h)"). Each run, GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
 - **Stuxedo:** [stuxedo.com](https://stuxedo.com), the Stuxedo media CDN, [Stuxedo Status](https://status.stuxedo.com)
   (the landing page), [Stuxedo Web Status](https://status.stuxedo.dev), and the control panel, webmail, website
   builder and support sites
 - **Web status:** the **Web status** workflow saves Stuxedo Web Status's overall state to `data/web-status.json`
-  every 5 minutes (only committing changes), for the badge on status.stuxedo.com's Web Status button
+  on the same best-effort 5-minute schedule (only committing changes), for the badge on status.stuxedo.com's Web Status button
 - **Region websites:** each region's website (uk, ca, es, fi, us and fr .stuxedo.net), served by that region's own
   server
 - **Templates:** the Region Page, Instance Page, Soonpage and Maintenancepage on GitHub Pages, their v1 snapshots,
@@ -101,7 +101,7 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 
 ## How it works
 
-- **`.github/workflows/status.yml`** runs a GitHup `check` every 5 minutes (with `fill-gaps`, up to 4 checks when the schedule is late) and commits the
+- **`.github/workflows/status.yml`** runs a GitHup `check` on a best-effort 5-minute schedule (with `fill-gaps`, up to 4 checks when the schedule is late) and commits the
   results to `data/` as `github-actions[bot]`. When a status changes, hourly, and on pushes, it
   builds the GitHup status page into `_site` (with `site-dir`), and deploys it with `actions/deploy-pages`.
 - **`legal:` in `.githup.yml`** makes GitHup generate the **Boring Legal Stuff** hub at `/legal/`

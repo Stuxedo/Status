@@ -2,7 +2,7 @@
 which status.stuxedo.com's Web Status button shows as a live badge.
 
 The web hosting status page is rendered on its server and can't be read cross-site from a browser, so this
-runs in the "Web status" workflow every 5 minutes instead. It only rewrites the file when the state or headline changes,
+runs in the "Web status" workflow instead (a best-effort 5-minute schedule). It only rewrites the file when the state or headline changes,
 so it doesn't commit every run.
 
 Usage: python3 scripts/web-status.py   (prints "changed" or "unchanged"; exits 1 if no source answered)
