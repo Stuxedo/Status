@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794609163,
+ "updated": 1794609463,
  "name": "Stuxedo Server Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 446,
-   "checked_at": 1794609161,
+   "ms": 306,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1793368955,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.627,
+    "30d": 99.628,
     "90d": 99.681,
     "all": 99.681
    },
    "avg_ms": {
-    "24h": 349,
-    "7d": 430,
+    "24h": 347,
+    "7d": 429,
     "30d": 472,
     "90d": 477,
     "all": 477
    },
    "totals": {
-    "checks": 1570,
-    "available": 1565,
-    "ms_sum": 747276,
-    "ms_n": 1565,
+    "checks": 1571,
+    "available": 1566,
+    "ms_sum": 747582,
+    "ms_n": 1566,
     "first": 1790721281
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://global.media.stuxedo.com/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 263,
-   "checked_at": 1794609161,
+   "ms": 179,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -62,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 247,
-    "7d": 285,
+    "24h": 244,
+    "7d": 284,
     "30d": 302,
     "90d": 310,
     "all": 310
    },
    "totals": {
-    "checks": 1247,
-    "available": 1247,
-    "ms_sum": 386635,
-    "ms_n": 1247,
+    "checks": 1248,
+    "available": 1248,
+    "ms_sum": 386814,
+    "ms_n": 1248,
     "first": 1791556710
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://status.stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 314,
-   "checked_at": 1794609161,
+   "ms": 27,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794006130,
     "from": null,
@@ -98,17 +98,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 132,
-    "7d": 137,
-    "30d": 137,
-    "90d": 137,
-    "all": 137
+    "24h": 128,
+    "7d": 136,
+    "30d": 136,
+    "90d": 136,
+    "all": 136
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 27368,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 27395,
+    "ms_n": 201,
     "first": 1794006130
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://status.stuxedo.dev/",
    "status": "up",
    "code": 200,
-   "ms": 609,
-   "checked_at": 1794609161,
+   "ms": 469,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794061481,
     "from": null,
@@ -134,17 +134,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 577,
-    "7d": 651,
-    "30d": 651,
-    "90d": 651,
-    "all": 651
+    "24h": 573,
+    "7d": 650,
+    "30d": 650,
+    "90d": 650,
+    "all": 650
    },
    "totals": {
-    "checks": 180,
-    "available": 180,
-    "ms_sum": 117133,
-    "ms_n": 180,
+    "checks": 181,
+    "available": 181,
+    "ms_sum": 117602,
+    "ms_n": 181,
     "first": 1794061481
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://dash.stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 1426,
-   "checked_at": 1794609161,
+   "ms": 1231,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794006130,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 1295,
-    "7d": 1369,
-    "30d": 1369,
-    "90d": 1369,
-    "all": 1369
+    "24h": 1292,
+    "7d": 1368,
+    "30d": 1368,
+    "90d": 1368,
+    "all": 1368
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 273835,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 275066,
+    "ms_n": 201,
     "first": 1794006130
    },
    "incident": null
@@ -191,8 +191,8 @@
    "url": "https://mash.stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 1085,
-   "checked_at": 1794609161,
+   "ms": 689,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794006130,
     "from": null,
@@ -206,17 +206,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 770,
-    "7d": 810,
-    "30d": 810,
-    "90d": 810,
-    "all": 810
+    "24h": 767,
+    "7d": 809,
+    "30d": 809,
+    "90d": 809,
+    "all": 809
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 161957,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 162646,
+    "ms_n": 201,
     "first": 1794006130
    },
    "incident": null
@@ -227,8 +227,8 @@
    "url": "https://builder.stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 747,
-   "checked_at": 1794609161,
+   "ms": 487,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794006130,
     "from": null,
@@ -242,17 +242,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 590,
-    "7d": 630,
-    "30d": 630,
-    "90d": 630,
-    "all": 630
+    "24h": 586,
+    "7d": 629,
+    "30d": 629,
+    "90d": 629,
+    "all": 629
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 125902,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 126389,
+    "ms_n": 201,
     "first": 1794006130
    },
    "incident": null
@@ -263,8 +263,8 @@
    "url": "https://support.stuxedo.com/",
    "status": "up",
    "code": 200,
-   "ms": 442,
-   "checked_at": 1794609161,
+   "ms": 303,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1794006130,
     "from": null,
@@ -278,17 +278,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 351,
+    "24h": 349,
     "7d": 415,
     "30d": 415,
     "90d": 415,
     "all": 415
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 83084,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 83387,
+    "ms_n": 201,
     "first": 1794006130
    },
    "incident": null
@@ -299,8 +299,8 @@
    "url": "https://robo1.servers.uk.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 322,
-   "checked_at": 1794609161,
+   "ms": 329,
+   "checked_at": 1794609461,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -314,17 +314,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 351,
-    "7d": 387,
+    "24h": 350,
+    "7d": 386,
     "30d": 439,
     "90d": 432,
     "all": 432
    },
    "totals": {
-    "checks": 1505,
-    "available": 1505,
-    "ms_sum": 649737,
-    "ms_n": 1505,
+    "checks": 1506,
+    "available": 1506,
+    "ms_sum": 650066,
+    "ms_n": 1506,
     "first": 1790946101
    },
    "incident": null
@@ -335,8 +335,8 @@
    "url": "https://tiny1.servers.uk.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 331,
-   "checked_at": 1794609161,
+   "ms": 320,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1792690148,
     "from": "down",
@@ -345,22 +345,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.72,
+    "30d": 99.721,
     "90d": 99.8,
     "all": 99.8
    },
    "avg_ms": {
-    "24h": 341,
+    "24h": 340,
     "7d": 382,
     "30d": 444,
     "90d": 437,
     "all": 437
    },
    "totals": {
-    "checks": 1505,
-    "available": 1502,
-    "ms_sum": 656124,
-    "ms_n": 1502,
+    "checks": 1506,
+    "available": 1503,
+    "ms_sum": 656444,
+    "ms_n": 1503,
     "first": 1790946101
    },
    "incident": null
@@ -371,8 +371,8 @@
    "url": "https://kitt1.servers.ca.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 83,
-   "checked_at": 1794609162,
+   "ms": 61,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -386,17 +386,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 151,
-    "7d": 166,
-    "30d": 233,
+    "24h": 147,
+    "7d": 165,
+    "30d": 232,
     "90d": 226,
     "all": 226
    },
    "totals": {
-    "checks": 1505,
-    "available": 1505,
-    "ms_sum": 339780,
-    "ms_n": 1505,
+    "checks": 1506,
+    "available": 1506,
+    "ms_sum": 339841,
+    "ms_n": 1506,
     "first": 1790946101
    },
    "incident": null
@@ -407,8 +407,8 @@
    "url": "https://mixr1.servers.es.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 359,
-   "checked_at": 1794609162,
+   "ms": 340,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -422,17 +422,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 376,
+    "24h": 374,
     "7d": 414,
     "30d": 487,
     "90d": 479,
     "all": 479
    },
    "totals": {
-    "checks": 1505,
-    "available": 1505,
-    "ms_sum": 721085,
-    "ms_n": 1505,
+    "checks": 1506,
+    "available": 1506,
+    "ms_sum": 721425,
+    "ms_n": 1506,
     "first": 1790946101
    },
    "incident": null
@@ -443,8 +443,8 @@
    "url": "https://mixr2.servers.fi.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 398,
-   "checked_at": 1794609162,
+   "ms": 390,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1793403607,
     "from": null,
@@ -458,17 +458,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 449,
+    "24h": 446,
     "7d": 489,
-    "30d": 525,
-    "90d": 525,
-    "all": 525
+    "30d": 524,
+    "90d": 524,
+    "all": 524
    },
    "totals": {
-    "checks": 409,
-    "available": 409,
-    "ms_sum": 214606,
-    "ms_n": 409,
+    "checks": 410,
+    "available": 410,
+    "ms_sum": 214996,
+    "ms_n": 410,
     "first": 1793403607
    },
    "incident": null
@@ -479,8 +479,8 @@
    "url": "https://down1.servers.us.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 100,
-   "checked_at": 1794609162,
+   "ms": 69,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -494,17 +494,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 156,
-    "7d": 174,
+    "24h": 152,
+    "7d": 173,
     "30d": 243,
-    "90d": 238,
-    "all": 238
+    "90d": 237,
+    "all": 237
    },
    "totals": {
-    "checks": 1501,
-    "available": 1501,
-    "ms_sum": 356620,
-    "ms_n": 1501,
+    "checks": 1502,
+    "available": 1502,
+    "ms_sum": 356689,
+    "ms_n": 1502,
     "first": 1790947483
    },
    "incident": null
@@ -515,8 +515,8 @@
    "url": "https://soci1.servers.fr.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 393,
-   "checked_at": 1794609162,
+   "ms": 356,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1793915799,
     "from": null,
@@ -530,17 +530,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 393,
+    "24h": 392,
     "7d": 430,
     "30d": 433,
     "90d": 433,
     "all": 433
    },
    "totals": {
-    "checks": 233,
-    "available": 233,
-    "ms_sum": 100923,
-    "ms_n": 233,
+    "checks": 234,
+    "available": 234,
+    "ms_sum": 101279,
+    "ms_n": 234,
     "first": 1793915799
    },
    "incident": null
@@ -551,8 +551,8 @@
    "url": "https://robo1.servers.uk.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 293,
-   "checked_at": 1794609162,
+   "ms": 295,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556710,
     "from": null,
@@ -566,17 +566,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 334,
+    "24h": 333,
     "7d": 371,
     "30d": 422,
     "90d": 418,
     "all": 418
    },
    "totals": {
-    "checks": 1509,
-    "available": 1509,
-    "ms_sum": 630992,
-    "ms_n": 1509,
+    "checks": 1510,
+    "available": 1510,
+    "ms_sum": 631287,
+    "ms_n": 1510,
     "first": 1790944189
    },
    "incident": null
@@ -587,8 +587,8 @@
    "url": "https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 300,
-   "checked_at": 1794609162,
+   "ms": 294,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1792690148,
     "from": "down",
@@ -597,22 +597,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.72,
+    "30d": 99.721,
     "90d": 99.801,
     "all": 99.801
    },
    "avg_ms": {
-    "24h": 323,
+    "24h": 322,
     "7d": 367,
     "30d": 382,
     "90d": 382,
     "all": 382
    },
    "totals": {
-    "checks": 1509,
-    "available": 1506,
-    "ms_sum": 575765,
-    "ms_n": 1506,
+    "checks": 1510,
+    "available": 1507,
+    "ms_sum": 576059,
+    "ms_n": 1507,
     "first": 1790944189
    },
    "incident": null
@@ -623,8 +623,8 @@
    "url": "https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 61,
-   "checked_at": 1794609162,
+   "ms": 56,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556711,
     "from": null,
@@ -638,17 +638,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 134,
-    "7d": 150,
+    "24h": 131,
+    "7d": 149,
     "30d": 171,
     "90d": 172,
     "all": 172
    },
    "totals": {
-    "checks": 1509,
-    "available": 1509,
-    "ms_sum": 259885,
-    "ms_n": 1509,
+    "checks": 1510,
+    "available": 1510,
+    "ms_sum": 259941,
+    "ms_n": 1510,
     "first": 1790944189
    },
    "incident": null
@@ -659,8 +659,8 @@
    "url": "https://mixr1.servers.es.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 342,
-   "checked_at": 1794609162,
+   "ms": 338,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1793468436,
     "from": "down",
@@ -669,22 +669,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 98.883,
-    "90d": 99.204,
-    "all": 99.204
+    "30d": 98.884,
+    "90d": 99.205,
+    "all": 99.205
    },
    "avg_ms": {
-    "24h": 366,
-    "7d": 403,
+    "24h": 365,
+    "7d": 402,
     "30d": 428,
     "90d": 426,
     "all": 426
    },
    "totals": {
-    "checks": 1509,
-    "available": 1497,
-    "ms_sum": 637399,
-    "ms_n": 1497,
+    "checks": 1510,
+    "available": 1498,
+    "ms_sum": 637737,
+    "ms_n": 1498,
     "first": 1790944189
    },
    "incident": null
@@ -695,8 +695,8 @@
    "url": "https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 397,
-   "checked_at": 1794609162,
+   "ms": 391,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1793403607,
     "from": null,
@@ -710,17 +710,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 435,
-    "7d": 474,
-    "30d": 484,
-    "90d": 484,
-    "all": 484
+    "24h": 434,
+    "7d": 473,
+    "30d": 483,
+    "90d": 483,
+    "all": 483
    },
    "totals": {
-    "checks": 409,
-    "available": 409,
-    "ms_sum": 197795,
-    "ms_n": 409,
+    "checks": 410,
+    "available": 410,
+    "ms_sum": 198186,
+    "ms_n": 410,
     "first": 1793403607
    },
    "incident": null
@@ -731,8 +731,8 @@
    "url": "https://down1.servers.us.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 94,
-   "checked_at": 1794609162,
+   "ms": 90,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1791556711,
     "from": null,
@@ -746,17 +746,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 135,
+    "24h": 133,
     "7d": 155,
     "30d": 177,
     "90d": 179,
     "all": 179
    },
    "totals": {
-    "checks": 1501,
-    "available": 1501,
-    "ms_sum": 268314,
-    "ms_n": 1501,
+    "checks": 1502,
+    "available": 1502,
+    "ms_sum": 268404,
+    "ms_n": 1502,
     "first": 1790947483
    },
    "incident": null
@@ -767,8 +767,8 @@
    "url": "https://soci1.servers.fr.stuxedo.net/certificates-ok.txt",
    "status": "up",
    "code": 200,
-   "ms": 367,
-   "checked_at": 1794609162,
+   "ms": 358,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1793915800,
     "from": null,
@@ -782,17 +782,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 383,
+    "24h": 382,
     "7d": 412,
     "30d": 415,
     "90d": 415,
     "all": 415
    },
    "totals": {
-    "checks": 233,
-    "available": 233,
-    "ms_sum": 96699,
-    "ms_n": 233,
+    "checks": 234,
+    "available": 234,
+    "ms_sum": 97057,
+    "ms_n": 234,
     "first": 1793915800
    },
    "incident": null
@@ -803,8 +803,8 @@
    "url": "https://uk.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 165,
-   "checked_at": 1794609162,
+   "ms": 168,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -818,17 +818,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 217,
+    "24h": 215,
     "7d": 235,
     "30d": 235,
     "90d": 235,
     "all": 235
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 47073,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 47241,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -839,8 +839,8 @@
    "url": "https://ca.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 85,
-   "checked_at": 1794609162,
+   "ms": 94,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -854,17 +854,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 190,
-    "7d": 208,
-    "30d": 208,
-    "90d": 208,
-    "all": 208
+    "24h": 186,
+    "7d": 207,
+    "30d": 207,
+    "90d": 207,
+    "all": 207
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 41570,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 41664,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -875,8 +875,8 @@
    "url": "https://es.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 402,
-   "checked_at": 1794609162,
+   "ms": 414,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -890,17 +890,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 442,
-    "7d": 456,
-    "30d": 456,
-    "90d": 456,
-    "all": 456
+    "24h": 441,
+    "7d": 455,
+    "30d": 455,
+    "90d": 455,
+    "all": 455
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 91137,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 91551,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -911,8 +911,8 @@
    "url": "https://fi.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 432,
-   "checked_at": 1794609162,
+   "ms": 440,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -926,17 +926,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 520,
-    "7d": 545,
-    "30d": 545,
-    "90d": 545,
-    "all": 545
+    "24h": 517,
+    "7d": 544,
+    "30d": 544,
+    "90d": 544,
+    "all": 544
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 108907,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 109347,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -947,8 +947,8 @@
    "url": "https://us.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 167,
-   "checked_at": 1794609162,
+   "ms": 113,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -962,17 +962,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 200,
+    "24h": 196,
     "7d": 212,
     "30d": 212,
     "90d": 212,
     "all": 212
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 42464,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 42577,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -983,8 +983,8 @@
    "url": "https://fr.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 470,
-   "checked_at": 1794609162,
+   "ms": 396,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -998,17 +998,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 456,
+    "24h": 453,
     "7d": 482,
     "30d": 482,
     "90d": 482,
     "all": 482
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 96402,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 96798,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1019,8 +1019,8 @@
    "url": "https://regionpage.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 161,
-   "checked_at": 1794609162,
+   "ms": 30,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1034,17 +1034,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 173,
+    "24h": 167,
     "7d": 145,
     "30d": 145,
     "90d": 145,
     "all": 145
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 29075,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 29105,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1055,8 +1055,8 @@
    "url": "https://instancepage.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 130,
-   "checked_at": 1794609162,
+   "ms": 164,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1077,10 +1077,10 @@
     "all": 145
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 29003,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 29167,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1091,8 +1091,8 @@
    "url": "https://soonpage.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 299,
-   "checked_at": 1794609162,
+   "ms": 91,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1106,17 +1106,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 151,
+    "24h": 149,
     "7d": 129,
     "30d": 129,
     "90d": 129,
     "all": 129
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 25874,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 25965,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1127,8 +1127,8 @@
    "url": "https://maintenancepage.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 159,
-   "checked_at": 1794609162,
+   "ms": 17,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1142,17 +1142,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 132,
-    "7d": 130,
-    "30d": 130,
-    "90d": 130,
-    "all": 130
+    "24h": 127,
+    "7d": 129,
+    "30d": 129,
+    "90d": 129,
+    "all": 129
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 25944,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 25961,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1163,8 +1163,80 @@
    "url": "https://regionpage-v1.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 139,
-   "checked_at": 1794609162,
+   "ms": 192,
+   "checked_at": 1794609462,
+   "last_change": {
+    "at": 1794006131,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 114,
+    "7d": 116,
+    "30d": 116,
+    "90d": 116,
+    "all": 116
+   },
+   "totals": {
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 23387,
+    "ms_n": 201,
+    "first": 1794006131
+   },
+   "incident": null
+  },
+  {
+   "slug": "stuxedo-instance-page-v1",
+   "name": "Stuxedo Instance Page v1",
+   "url": "https://instancepage-v1.stuxedo.net/",
+   "status": "up",
+   "code": 200,
+   "ms": 28,
+   "checked_at": 1794609462,
+   "last_change": {
+    "at": 1794006131,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 163,
+    "7d": 135,
+    "30d": 135,
+    "90d": 135,
+    "all": 135
+   },
+   "totals": {
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 27165,
+    "ms_n": 201,
+    "first": 1794006131
+   },
+   "incident": null
+  },
+  {
+   "slug": "stuxedo-soonpage-v1",
+   "name": "Stuxedo Soonpage v1",
+   "url": "https://soonpage-v1.stuxedo.net/",
+   "status": "up",
+   "code": 200,
+   "ms": 19,
+   "checked_at": 1794609462,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1179,88 +1251,16 @@
    },
    "avg_ms": {
     "24h": 111,
-    "7d": 116,
-    "30d": 116,
-    "90d": 116,
-    "all": 116
-   },
-   "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 23195,
-    "ms_n": 200,
-    "first": 1794006131
-   },
-   "incident": null
-  },
-  {
-   "slug": "stuxedo-instance-page-v1",
-   "name": "Stuxedo Instance Page v1",
-   "url": "https://instancepage-v1.stuxedo.net/",
-   "status": "up",
-   "code": 200,
-   "ms": 175,
-   "checked_at": 1794609162,
-   "last_change": {
-    "at": 1794006131,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 168,
-    "7d": 136,
-    "30d": 136,
-    "90d": 136,
-    "all": 136
-   },
-   "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 27137,
-    "ms_n": 200,
-    "first": 1794006131
-   },
-   "incident": null
-  },
-  {
-   "slug": "stuxedo-soonpage-v1",
-   "name": "Stuxedo Soonpage v1",
-   "url": "https://soonpage-v1.stuxedo.net/",
-   "status": "up",
-   "code": 200,
-   "ms": 105,
-   "checked_at": 1794609163,
-   "last_change": {
-    "at": 1794006131,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 115,
     "7d": 117,
     "30d": 117,
     "90d": 117,
     "all": 117
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 23401,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 23420,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1271,8 +1271,8 @@
    "url": "https://maintenancepage-v1.stuxedo.net/",
    "status": "up",
    "code": 200,
-   "ms": 119,
-   "checked_at": 1794609163,
+   "ms": 22,
+   "checked_at": 1794609463,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1286,17 +1286,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 138,
-    "7d": 124,
-    "30d": 124,
-    "90d": 124,
-    "all": 124
+    "24h": 133,
+    "7d": 123,
+    "30d": 123,
+    "90d": 123,
+    "all": 123
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 24715,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 24737,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1307,8 +1307,8 @@
    "url": "https://stuxedo.github.io/",
    "status": "up",
    "code": 200,
-   "ms": 87,
-   "checked_at": 1794609163,
+   "ms": 19,
+   "checked_at": 1794609463,
    "last_change": {
     "at": 1794006131,
     "from": null,
@@ -1322,17 +1322,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 92,
-    "7d": 81,
-    "30d": 81,
-    "90d": 81,
-    "all": 81
+    "24h": 89,
+    "7d": 80,
+    "30d": 80,
+    "90d": 80,
+    "all": 80
    },
    "totals": {
-    "checks": 200,
-    "available": 200,
-    "ms_sum": 16130,
-    "ms_n": 200,
+    "checks": 201,
+    "available": 201,
+    "ms_sum": 16149,
+    "ms_n": 201,
     "first": 1794006131
    },
    "incident": null
@@ -1340,7 +1340,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 25,
-  "every": 3349
+  "checks": 26,
+  "every": 3227
  }
 }
