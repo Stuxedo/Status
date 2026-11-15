@@ -1,6 +1,6 @@
 # Adds new Stuxedo servers to the status page on its own, daily: reads the *.servers.<cc>.stuxedo.net records
-# from Cloudflare (scripts/sync-servers.py), and when there's a new one, releases it on test and opens a test -> main
-# PR. It never pushes to main: Status rebuilds the page when Leo merges that PR (a push to main that changes
+# from Cloudflare (scripts/sync-servers.py), and when there's a new one, releases it on test and opens a test -> staging
+# PR. It never pushes to main: Status rebuilds the page once Leo merges it into staging and then staging into main (a push to main that changes
 # .githup.yml starts it). Opening the PR needs "Allow GitHub Actions to create and approve pull requests"
 # (Settings > Actions); without it the run leaves a warning with the compare link instead.
 # Runs before the region pages' own sync (05:17). The new monitors go live only once its PR is merged, so merge
@@ -15,7 +15,7 @@ on:
 
 permissions:
   contents: write        # commit and tag the release on test
-  pull-requests: write   # open the test -> main PR
+  pull-requests: write   # open the test -> staging PR
 
 # Shares Status's group, so its data commits and this release never race.
 concurrency:
@@ -55,8 +55,8 @@ jobs:
           git commit -m "Release v$VERSION"
           git tag -a "v$VERSION" -m "Release v$VERSION"
           git push origin HEAD:test "v$VERSION"
-          if [ -n "$(gh pr list --base main --head test --state open --json number -q '.[0].number')" ]; then
-            echo "::notice::A test -> main PR is already open, so v$VERSION joins it, ready to merge."
-          elif ! gh pr create --base main --head test --title "Release v$VERSION" --body "New servers from DNS, released as v$VERSION by Servers sync. Merging deploys it."; then
-            echo "::warning::Couldn't open the test -> main PR. Open it here: https://github.com/${GITHUB_REPOSITORY}/compare/main...test"
+          if [ -n "$(gh pr list --base staging --head test --state open --json number -q '.[0].number')" ]; then
+            echo "::notice::A test -> staging PR is already open, so v$VERSION joins it, ready to merge."
+          elif ! gh pr create --base staging --head test --title "Release v$VERSION" --body "New servers from DNS, released as v$VERSION by Servers sync. After this merges, a staging -> main PR takes it live."; then
+            echo "::warning::Couldn't open the test -> staging PR. Open it here: https://github.com/${GITHUB_REPOSITORY}/compare/staging...test"
           fi
