@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.15-2
+
+### Changed
+
+- **Servers sync opens its pull request into `staging`.** When it releases new servers on `test`, it now opens (or joins) a `test` → `staging` pull request instead of going straight to `main`, matching the `test` → `staging` → `main` flow. `staging` and `main` are also protected by GitHub rulesets now: no deleting or force-pushing, and `staging` only changes through pull requests (`main` still takes the status workflows' data commits).
+
 ## v26.11.15-1
 
 ### Changed
