@@ -117,12 +117,14 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 ```bash
 ./dev-server.sh                 # or dev-server.bat on Windows; add a port as the last argument
 ./dev-server.sh --no-dev-mode   # production rendering
+./dev-server.sh --lan           # open it from a phone or another device on your network
 ```
 
 `dev-server` generates 90 days of example data, builds the status page into `.dev/public` with
 `DEV_MODE` on, with its legal pages, 404 and sitemap, and serves it at
 `http://127.0.0.1:8000`. It uses GitHup from `$GITHUP_PATH`, a sibling `../GitHup` checkout, or
-a fresh clone in `.dev/GitHup`.
+a fresh clone in `.dev/GitHup`. With `--lan` it listens on every interface instead of `127.0.0.1`
+only and prints the addresses to open (usually the `192.168.x.x` one).
 
 ## Hosting
 
@@ -139,7 +141,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
 
-Releases are made and tagged on `test`, and go live when its pull request into `main` is merged (see [CONTRIBUTING.md](CONTRIBUTING.md#branches)).
+Releases are made and tagged on `test`, then go live through two pull requests: `test` into `staging`, then `staging` into `main` (see [CONTRIBUTING.md](CONTRIBUTING.md#branches-and-going-live)).
 
 ## License
 

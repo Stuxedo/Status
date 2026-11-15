@@ -1,9 +1,11 @@
 @echo off
 setlocal
 REM Stuxedo Server Status - Local dev server (Windows)
-REM Usage: dev-server.bat [--no-dev-mode] [port]
+REM Usage: dev-server.bat [--no-dev-mode] [port] [--lan]
 REM   port            default: 8000
 REM   --no-dev-mode   render the status page exactly as production would
+REM   --lan           listen on all interfaces so phones and other devices on your network
+REM                   can open it (prints the addresses to open); default is 127.0.0.1 only
 REM
 REM Generates 90 days of example data for the monitors in .githup.yml, builds
 REM the GitHup status page into .dev\public, with its legal pages, 404 and sitemap,
@@ -16,10 +18,16 @@ REM the status page, its legal pages and 404 show GitHup's DEV MODE banner.
 
 set "DIR=%~dp0"
 set "PORT=8000"
+set "HOST=127.0.0.1"
 set "DEV_MODE=1"
 
 :args
 if "%~1"=="" goto run
+if /i "%~1"=="--lan" (
+    set "HOST=0.0.0.0"
+    shift
+    goto args
+)
 if /i "%~1"=="--no-dev-mode" (
     set "DEV_MODE=0"
 ) else (
@@ -56,4 +64,11 @@ if "%DEV_MODE%"=="1" (
 ) else (
     echo Stuxedo Server Status ^(production rendering^) at http://127.0.0.1:%PORT%/
 )
-python -m http.server %PORT% --bind 127.0.0.1 --directory .dev/public
+if "%HOST%"=="0.0.0.0" (
+    echo On your local network ^(--lan^), open one of these on the other device:
+    for /f "tokens=2 delims=:" %%a in ('ipconfig ^| findstr /c:"IPv4"') do (
+        for /f "tokens=* delims= " %%b in ("%%a") do echo     http://%%b:%PORT%/
+    )
+    echo   ^(usually the 192.168.x.x one; allow Python through the firewall if asked^)
+)
+python -m http.server %PORT% --bind %HOST% --directory .dev/public

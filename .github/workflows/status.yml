@@ -5,7 +5,7 @@ name: Status
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # GitHup check (GitHub may run it a little late)
+    - cron: "*/5 * * * *"   # Asks GitHub for a check every 5 minutes (best-effort; GitHub often runs it less often)
     - cron: "7 * * * *"     # hourly rebuild, so "updated" times stay fresh
   workflow_dispatch:
   push:
