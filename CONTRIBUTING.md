@@ -13,8 +13,10 @@ status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/G
 You need Python 3.11+ and nothing else.
 
 ```bash
-./dev-server.sh [--no-dev-mode] [port]   # or dev-server.bat on Windows
+./dev-server.sh [--no-dev-mode] [port] [--lan]   # or dev-server.bat on Windows
 ```
+
+Add `--lan` to open it from a phone or another device on your network: it listens on every interface instead of `127.0.0.1` only and prints the addresses to open (usually the `192.168.x.x` one).
 
 ## Project conventions
 
@@ -32,11 +34,12 @@ You need Python 3.11+ and nothing else.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a feature branch off it. Never push to `main`
-- Changes reach `main` only through a pull request from `test` into `main`, is reviewed and merged by Leo
-- Merging into `main` rebuilds and deploys status.stuxedo.net; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- **`main` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged. Merging into it rebuilds and deploys status.stuxedo.net. The scheduled status checks commit their data straight to `main`; that's the workflow's own output, not a code change.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged. Nothing deploys from it.
+- **Work happens on `test`**, or on a feature branch off `test` that's merged back into it. Releases are made on `test` too; `commit.sh` / `commit.bat` refuse to run on `staging` or `main`.
+- **Going live:** push `test` with its tag, open a pull request into staging (`gh pr create --base staging --head test`), check staging once it's merged, then open one from staging into main (`gh pr create --base main --head staging`). Leo reviews and merges both.
 
 ## Versioning
 
