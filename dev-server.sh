@@ -1,8 +1,10 @@
 #!/bin/bash
 # Stuxedo Server Status - Local dev server
-# Usage: ./dev-server.sh [--no-dev-mode] [port]
+# Usage: ./dev-server.sh [--no-dev-mode] [port] [--lan]
 #   port            default: 8000
 #   --no-dev-mode   render the status page exactly as production would
+#   --lan           listen on all interfaces so phones and other devices on your network
+#                   can open it (prints the addresses to open); default is 127.0.0.1 only
 #
 # Generates 90 days of example data for the monitors in .githup.yml, builds
 # the GitHup status page into .dev/public, with its legal pages, 404 and sitemap,
@@ -16,12 +18,14 @@ set -e
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PORT=8000
+HOST=127.0.0.1
 export DEV_MODE=1
 
 for arg in "$@"; do
     case "$arg" in
         --no-dev-mode) export DEV_MODE=0 ;;
-        ''|*[!0-9]*) echo "Usage: $0 [--no-dev-mode] [port]" >&2; exit 1 ;;
+        --lan) HOST=0.0.0.0 ;;
+        ''|*[!0-9]*) echo "Usage: $0 [--no-dev-mode] [port] [--lan]" >&2; exit 1 ;;
         *) PORT="$arg" ;;
     esac
 done
@@ -52,4 +56,17 @@ if [ "$DEV_MODE" = "1" ]; then
 else
     echo "Stuxedo Server Status (production rendering) at http://127.0.0.1:$PORT/"
 fi
-"$PY" -m http.server "$PORT" --bind 127.0.0.1 --directory .dev/public
+if [ "$HOST" = "0.0.0.0" ]; then
+    # This machine's IPv4 addresses (Windows, macOS or Linux), minus loopback
+    case "$OSTYPE" in
+        msys*|cygwin*|win32*) ADDRS="$(ipconfig | awk -F': *' '/IPv4/{print $2}' | tr -d '\r')" ;;
+        darwin*) ADDRS="$(ifconfig | awk '/inet /{print $2}')" ;;
+        *) ADDRS="$(hostname -I 2>/dev/null)" ;;
+    esac
+    echo "On your local network (--lan), open one of these on the other device:"
+    for a in $ADDRS; do
+        case "$a" in 127.*|'') ;; *) echo "    http://$a:$PORT/" ;; esac
+    done
+    echo "  (usually the 192.168.x.x one; allow Python through the firewall if asked)"
+fi
+"$PY" -m http.server "$PORT" --bind "$HOST" --directory .dev/public

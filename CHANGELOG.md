@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.15
+
+### Added
+
+- **`--lan` for the dev server.** `./dev-server.sh --lan` (or `dev-server.bat --lan`) makes the local preview listen on every interface, so you can open the status page from a phone or another device on the same network. It prints the addresses to open, usually the `192.168.x.x` one; allow Python through the firewall if asked. Without it, the server stays on `127.0.0.1` only, as before.
+
 ## v26.11.13-1
 
 ### Fixed
