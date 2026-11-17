@@ -5,6 +5,18 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.17-3
+
+### Fixed
+
+- **`.githup.yml` is valid YAML again.** The runn1 runners monitor's description in v26.11.17-2 had a colon followed by a space, which YAML reads as a new key, so the file couldn't be read. It now uses a comma.
+
+## v26.11.17-2
+
+### Added
+
+- **The Stux GitHub Runner Service is monitored.** A new Services group has **runn1 runners**, which is up while every self-hosted GitHub runner set up on RUNN1 is online: the service publishes `https://runn1.servers.de.stuxedo.net/runners-ok.txt` every minute while they all are, and removes it when one isn't.
+
 ## v26.11.17-1
 
 ### Added
