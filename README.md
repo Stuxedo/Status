@@ -119,6 +119,17 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 - **The status table above** is written by GitHup's `readme` mode between the
   `<!-- githup:start -->` and `<!-- githup:end -->` markers. Don't edit inside them.
 
+## Reliable 5-minute checks
+
+GitHub runs scheduled workflows on a best-effort basis, so the 5-minute schedules in `status.yml` and
+`web-status.yml` often run hours apart. RUNN1 starts them instead: every 5 minutes, cron runs
+`/usr/local/sbin/stuxedo-status-dispatch` ([`scripts/dispatch-checks.sh`](scripts/dispatch-checks.sh)), which asks
+GitHub to run each workflow now unless a run is already queued or running. The schedules stay as a backup.
+
+It uses a fine-grained personal access token with access to **Stuxedo/Status only** and one permission,
+**Actions: Read and write**, kept on RUNN1 in `/etc/stuxedo-status/dispatch-token` (root only). When the token
+expires, make a new one with the same settings and replace the file.
+
 ## Local development
 
 ```bash
