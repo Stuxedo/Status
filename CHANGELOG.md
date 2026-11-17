@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.17
+
+### Added
+
+- **RUNN1 (Germany) is monitored.** Its instance page (`runn1`, read by the region pages) and its daily certificate check (`runn1 certificates`) are new monitors, and the new Germany region website, [de.stuxedo.net](https://de.stuxedo.net/), is under Region websites.
+
 ## v26.11.15-2
 
 ### Changed
