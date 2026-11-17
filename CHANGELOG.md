@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.17-1
+
+### Added
+
+- **WEB1 (UK), the Stuxedo web hosting server, is monitored.** Its instance page, [web1.servers.uk.stuxedo.net](https://web1.servers.uk.stuxedo.net/), is a new `web1` monitor under Servers, which the region pages already read for the UK. It has no `web1 certificates` monitor: its certificate is managed by the hosting platform rather than by our daily check, and the page monitor fails if it stops working.
+
 ## v26.11.17
 
 ### Added
