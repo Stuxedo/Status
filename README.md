@@ -75,6 +75,8 @@ Checked regularly: the workflow asks GitHub for a run every 5 minutes, but GitHu
   builder and support sites
 - **Web status:** the **Web status** workflow saves Stuxedo Web Status's overall state to `data/web-status.json`
   on the same best-effort 5-minute schedule (only committing changes), for the badge on status.stuxedo.com's Web Status button
+- **Services:** **runn1 runners**, the Stux GitHub Runner Service on runn1 (Germany): up while every
+  self-hosted GitHub runner it has set up is online (`runners-ok.txt`, written every minute by Stuxedo/runners)
 - **Region websites:** each region's website (uk, ca, es, fi, us and fr .stuxedo.net), served by that region's own
   server
 - **Templates:** the Region Page, Instance Page, Soonpage and Maintenancepage on GitHub Pages, their v1 snapshots,

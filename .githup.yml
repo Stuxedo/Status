@@ -130,6 +130,15 @@ groups:
         url: https://runn1.servers.de.stuxedo.net/certificates-ok.txt
         description: runn1 (Germany)
 
+  # Services Stuxedo runs on its servers. The Stux GitHub Runner Service (Stuxedo/runners) publishes
+  # runners-ok.txt on RUNN1 every minute while all its self-hosted GitHub runners are online.
+  - name: Services
+    description: Services Stuxedo runs on its own servers.
+    monitors:
+      - name: runn1 runners
+        url: https://runn1.servers.de.stuxedo.net/runners-ok.txt
+        description: Stux GitHub Runner Service, all self-hosted GitHub runners on runn1 (Germany) online
+
   # Each region's website, served by that region's own server. It frames regionpage.stuxedo.net.
   - name: Region websites
     description: Each Stuxedo region's website, served by the region's own server.
