@@ -68,7 +68,7 @@ groups:
         description: Help articles and support
 
   # Each server's instance page. The Stuxedo and Stux.Cloud region pages read these monitors
-  # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1, soci1) for their live status.
+  # (slugs robo1, tiny1, kitt1, mixr1, mixr2, down1, soci1, runn1, web1) for their live status.
   - name: Servers
     description: Each server's instance page, by region.
     monitors:
@@ -93,6 +93,12 @@ groups:
       - name: soci1
         url: https://soci1.servers.fr.stuxedo.net/
         description: France
+      - name: runn1
+        url: https://runn1.servers.de.stuxedo.net/
+        description: Germany
+      - name: web1
+        url: https://web1.servers.uk.stuxedo.net/
+        description: UK (web hosting)
 
   # Every server checks daily that each certificate it uses has more than 21 days left
   # (/usr/local/sbin/cert-expiry-check) and publishes certificates-ok.txt while it does.
@@ -120,6 +126,9 @@ groups:
       - name: soci1 certificates
         url: https://soci1.servers.fr.stuxedo.net/certificates-ok.txt
         description: soci1 (France)
+      - name: runn1 certificates
+        url: https://runn1.servers.de.stuxedo.net/certificates-ok.txt
+        description: runn1 (Germany)
 
   # Each region's website, served by that region's own server. It frames regionpage.stuxedo.net.
   - name: Region websites
@@ -143,6 +152,9 @@ groups:
       - name: Stuxedo France
         url: https://fr.stuxedo.net/
         description: France
+      - name: Stuxedo Germany
+        url: https://de.stuxedo.net/
+        description: Germany
 
   # Stuxedo's page templates on GitHub Pages, the original v1 designs kept as snapshots, and the
   # github.io redirect.

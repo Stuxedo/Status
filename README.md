@@ -75,8 +75,8 @@ Checked regularly: the workflow asks GitHub for a run every 5 minutes, but GitHu
   server
 - **Templates:** the Region Page, Instance Page, Soonpage and Maintenancepage on GitHub Pages, their v1 snapshots,
   and the stuxedo.github.io redirect
-- **Servers:** each server's instance page (robo1 and tiny1 in the UK, kitt1 in Canada, mixr1 in
-  Spain, mixr2 in Finland, down1 in the United States, soci1 in France). The [Stuxedo](https://regionpage.stuxedo.net) and
+- **Servers:** each server's instance page (robo1, tiny1 and web1 in the UK, kitt1 in Canada, mixr1 in
+  Spain, mixr2 in Finland, down1 in the United States, soci1 in France, runn1 in Germany). The [Stuxedo](https://regionpage.stuxedo.net) and
   [Stux.Cloud](https://regionpage.stux.cloud) region pages read these monitors (by slug) for their
   live server status
 - **Certificates:** each server checks daily that every certificate it uses has more than 21
