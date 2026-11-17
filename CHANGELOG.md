@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.17-5
+
+### Changed
+
+- **Copyright Stuxedo.** The copyright notices now name Stuxedo instead of Stux.Group ("Copyright (c) 2026 Stuxedo. All rights reserved."), in `LICENSE`, `README.md`. Stuxedo is still part of the Stux.Group brand, and the Imprint still names the company that operates it.
+
 ## v26.11.17-4
 
 ### Added
