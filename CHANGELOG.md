@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.17-4
+
+### Added
+
+- **Checks every 5 minutes, started from RUNN1.** GitHub's 5-minute schedules are best-effort and often ran hours apart (Web Status ran about every 6 to 8 hours today, so the status.stuxedo.com card kept showing an issue that was over). `scripts/dispatch-checks.sh`, run by cron on RUNN1 every 5 minutes, starts `status.yml` and `web-status.yml` unless a run is already queued or running. It uses a fine-grained token limited to this repo's Actions. The schedules stay as a backup.
+
 ## v26.11.17-3
 
 ### Fixed
