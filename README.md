@@ -32,30 +32,30 @@ table fills in after the workflow's first check.
 | Stuxedo | [Stuxedo Website Builder](https://builder.stuxedo.com/) | Up | 99.62% | 99.76% | 99.82% | 806 ms |
 | Stuxedo | [Stuxedo Support](https://support.stuxedo.com/) | Up | 99.62% | 99.76% | 99.82% | 514 ms |
 | Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 408 ms |
-| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.75% | 403 ms |
+| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.75% | 402 ms |
 | Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 183 ms |
 | Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 440 ms |
 | Servers | [mixr2](https://mixr2.servers.fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 494 ms |
 | Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 183 ms |
 | Servers | [soci1](https://soci1.servers.fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 437 ms |
 | Servers | [runn1](https://runn1.servers.de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 434 ms |
-| Servers | [web1](https://web1.servers.uk.stuxedo.net/) | Up | 99.23% | 99.23% | 99.23% | 442 ms |
+| Servers | [web1](https://web1.servers.uk.stuxedo.net/) | Up | 99.24% | 99.24% | 99.24% | 442 ms |
 | Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 376 ms |
 | Certificates | [tiny1 certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.75% | 372 ms |
-| Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 157 ms |
+| Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 156 ms |
 | Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.02% | 408 ms |
 | Certificates | [mixr2 certificates](https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 472 ms |
-| Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 163 ms |
+| Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 162 ms |
 | Certificates | [soci1 certificates](https://soci1.servers.fr.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 418 ms |
 | Certificates | [runn1 certificates](https://runn1.servers.de.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 415 ms |
 | Services | [runn1 runners](https://runn1.servers.de.stuxedo.net/runners-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 410 ms |
 | Region websites | [Stuxedo UK](https://uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 294 ms |
-| Region websites | [Stuxedo Canada](https://ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 334 ms |
-| Region websites | [Stuxedo Spain](https://es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 579 ms |
+| Region websites | [Stuxedo Canada](https://ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 333 ms |
+| Region websites | [Stuxedo Spain](https://es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 578 ms |
 | Region websites | [Stuxedo Finland](https://fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 628 ms |
-| Region websites | [Stuxedo United States](https://us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 339 ms |
-| Region websites | [Stuxedo France](https://fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 593 ms |
-| Region websites | [Stuxedo Germany](https://de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 573 ms |
+| Region websites | [Stuxedo United States](https://us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 338 ms |
+| Region websites | [Stuxedo France](https://fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 592 ms |
+| Region websites | [Stuxedo Germany](https://de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 572 ms |
 | Templates | [Stuxedo Region Page](https://regionpage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 160 ms |
 | Templates | [Stuxedo Instance Page](https://instancepage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
 | Templates | [Stuxedo Soonpage](https://soonpage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 157 ms |
