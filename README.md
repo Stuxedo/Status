@@ -25,22 +25,22 @@ table fills in after the workflow's first check.
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
 | Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 98.29% | 99.11% | 99.30% | 569 ms |
 | Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | Up | 100.00% | 100.00% | 100.00% | 342 ms |
-| Stuxedo | [Stuxedo Status](https://status.stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 354 ms |
+| Stuxedo | [Stuxedo Status](https://status.stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 353 ms |
 | Stuxedo | [Stuxedo Web Status](https://status.stuxedo.dev/) | Up | 100.00% | 100.00% | 100.00% | 773 ms |
 | Stuxedo | [Stuxedo Control Panel](https://dash.stuxedo.com/) | Up | 98.29% | 98.98% | 99.16% | 1628 ms |
-| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 98.29% | 99.11% | 99.27% | 1059 ms |
+| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 98.29% | 99.11% | 99.27% | 1061 ms |
 | Stuxedo | [Stuxedo Website Builder](https://builder.stuxedo.com/) | Up | 98.29% | 99.11% | 99.27% | 840 ms |
 | Stuxedo | [Stuxedo Support](https://support.stuxedo.com/) | Up | 98.29% | 99.11% | 99.27% | 551 ms |
 | Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 397 ms |
-| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.80% | 385 ms |
+| Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 99.80% | 384 ms |
 | Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 171 ms |
 | Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 418 ms |
 | Servers | [mixr2](https://mixr2.servers.fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 485 ms |
-| Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 171 ms |
+| Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 170 ms |
 | Servers | [soci1](https://soci1.servers.fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 428 ms |
 | Servers | [runn1](https://runn1.servers.de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 430 ms |
-| Servers | [web1](https://web1.servers.uk.stuxedo.net/) | Up | 98.29% | 98.77% | 98.77% | 367 ms |
-| Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 366 ms |
+| Servers | [web1](https://web1.servers.uk.stuxedo.net/) | Up | 98.29% | 98.78% | 98.78% | 367 ms |
+| Certificates | [robo1 certificates](https://robo1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 365 ms |
 | Certificates | [tiny1 certificates](https://tiny1.servers.uk.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.80% | 364 ms |
 | Certificates | [kitt1 certificates](https://kitt1.servers.ca.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 148 ms |
 | Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 99.23% | 399 ms |
