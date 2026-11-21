@@ -5,6 +5,12 @@ All notable changes to Stuxedo Server Status are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.21
+
+### Fixed
+
+- The deploy no longer fails when GitHub briefly can't find the page it just uploaded ("Fetching artifact metadata failed", then "No artifacts named github-pages were found"). This happened in short bursts on GitHub's side across every brand's status page on 20 and 21 November 2026. If the first deploy attempt fails, the workflow now waits 30 seconds and tries once more, and fails only if the retry fails too.
+
 ## v26.11.17-5
 
 ### Changed

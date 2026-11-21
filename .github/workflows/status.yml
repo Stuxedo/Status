@@ -60,7 +60,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment-retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -84,5 +84,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+      # GitHub's artifact service sometimes can't find the upload for a moment ("Fetching artifact metadata
+      # failed"), which fails the deploy although the page built fine. Wait 30 seconds and try once more.
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+      - name: Wait before retrying the deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
