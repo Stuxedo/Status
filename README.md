@@ -23,12 +23,12 @@ table fills in after the workflow's first check.
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 99.32% | 98.87% | 99.05% | 541 ms |
+| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 99.32% | 98.87% | 99.05% | 542 ms |
 | Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | Up | 100.00% | 100.00% | 100.00% | 319 ms |
 | Stuxedo | [Stuxedo Status](https://status.stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 333 ms |
 | Stuxedo | [Stuxedo Web Status](https://status.stuxedo.dev/) | Up | 100.00% | 100.00% | 100.00% | 751 ms |
 | Stuxedo | [Stuxedo Control Panel](https://dash.stuxedo.com/) | Up | 99.32% | 98.81% | 98.98% | 1625 ms |
-| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 99.32% | 98.87% | 99.03% | 1033 ms |
+| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 99.32% | 98.87% | 99.03% | 1034 ms |
 | Stuxedo | [Stuxedo Website Builder](https://builder.stuxedo.com/) | Up | 99.32% | 98.87% | 99.03% | 828 ms |
 | Stuxedo | [Stuxedo Support](https://support.stuxedo.com/) | Up | 99.32% | 98.87% | 99.03% | 555 ms |
 | Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 390 ms |
@@ -54,7 +54,7 @@ table fills in after the workflow's first check.
 | Region websites | [Stuxedo Spain](https://es.stuxedo.net/) | Up | 100.00% | 99.94% | 99.94% | 444 ms |
 | Region websites | [Stuxedo Finland](https://fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 534 ms |
 | Region websites | [Stuxedo United States](https://us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 200 ms |
-| Region websites | [Stuxedo France](https://fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 463 ms |
+| Region websites | [Stuxedo France](https://fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 464 ms |
 | Region websites | [Stuxedo Germany](https://de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 462 ms |
 | Templates | [Stuxedo Region Page](https://regionpage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 132 ms |
 | Templates | [Stuxedo Instance Page](https://instancepage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 133 ms |
