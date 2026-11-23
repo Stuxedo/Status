@@ -23,18 +23,18 @@ table fills in after the workflow's first check.
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 99.64% | 98.94% | 99.09% | 542 ms |
+| Stuxedo | [Stuxedo](https://stuxedo.com/) | Up | 99.64% | 98.94% | 99.09% | 541 ms |
 | Stuxedo | [Stuxedo Media CDN](https://global.media.stuxedo.com/icon.png) | Up | 100.00% | 100.00% | 100.00% | 321 ms |
-| Stuxedo | [Stuxedo Status](https://status.stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 327 ms |
-| Stuxedo | [Stuxedo Web Status](https://status.stuxedo.dev/) | Up | 100.00% | 100.00% | 100.00% | 738 ms |
+| Stuxedo | [Stuxedo Status](https://status.stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 326 ms |
+| Stuxedo | [Stuxedo Web Status](https://status.stuxedo.dev/) | Up | 100.00% | 100.00% | 100.00% | 737 ms |
 | Stuxedo | [Stuxedo Control Panel](https://dash.stuxedo.com/) | Up | 99.64% | 98.88% | 99.03% | 1639 ms |
-| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 1018 ms |
-| Stuxedo | [Stuxedo Website Builder](https://builder.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 826 ms |
-| Stuxedo | [Stuxedo Support](https://support.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 560 ms |
+| Stuxedo | [Stuxedo Webmail](https://mash.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 1017 ms |
+| Stuxedo | [Stuxedo Website Builder](https://builder.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 825 ms |
+| Stuxedo | [Stuxedo Support](https://support.stuxedo.com/) | Up | 99.64% | 98.94% | 99.08% | 559 ms |
 | Servers | [robo1](https://robo1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 390 ms |
 | Servers | [tiny1](https://tiny1.servers.uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 381 ms |
 | Servers | [kitt1](https://kitt1.servers.ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 167 ms |
-| Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 99.94% | 99.96% | 418 ms |
+| Servers | [mixr1](https://mixr1.servers.es.stuxedo.net/) | Up | 100.00% | 99.94% | 99.96% | 417 ms |
 | Servers | [mixr2](https://mixr2.servers.fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 476 ms |
 | Servers | [down1](https://down1.servers.us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 171 ms |
 | Servers | [soci1](https://soci1.servers.fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 424 ms |
@@ -46,21 +46,21 @@ table fills in after the workflow's first check.
 | Certificates | [mixr1 certificates](https://mixr1.servers.es.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 99.94% | 99.48% | 396 ms |
 | Certificates | [mixr2 certificates](https://mixr2.servers.fi.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 455 ms |
 | Certificates | [down1 certificates](https://down1.servers.us.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 153 ms |
-| Certificates | [soci1 certificates](https://soci1.servers.fr.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 407 ms |
-| Certificates | [runn1 certificates](https://runn1.servers.de.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 406 ms |
-| Services | [runn1 runners](https://runn1.servers.de.stuxedo.net/runners-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 404 ms |
+| Certificates | [soci1 certificates](https://soci1.servers.fr.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 406 ms |
+| Certificates | [runn1 certificates](https://runn1.servers.de.stuxedo.net/certificates-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 405 ms |
+| Services | [runn1 runners](https://runn1.servers.de.stuxedo.net/runners-ok.txt) | Up | 100.00% | 100.00% | 100.00% | 403 ms |
 | Region websites | [Stuxedo UK](https://uk.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 232 ms |
-| Region websites | [Stuxedo Canada](https://ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 199 ms |
+| Region websites | [Stuxedo Canada](https://ca.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 198 ms |
 | Region websites | [Stuxedo Spain](https://es.stuxedo.net/) | Up | 100.00% | 99.94% | 99.95% | 447 ms |
 | Region websites | [Stuxedo Finland](https://fi.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 537 ms |
 | Region websites | [Stuxedo United States](https://us.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 203 ms |
 | Region websites | [Stuxedo France](https://fr.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 469 ms |
-| Region websites | [Stuxedo Germany](https://de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 477 ms |
+| Region websites | [Stuxedo Germany](https://de.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 476 ms |
 | Templates | [Stuxedo Region Page](https://regionpage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 144 ms |
 | Templates | [Stuxedo Instance Page](https://instancepage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 150 ms |
 | Templates | [Stuxedo Soonpage](https://soonpage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 145 ms |
 | Templates | [Stuxedo Maintenancepage](https://maintenancepage.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 145 ms |
-| Templates | [Stuxedo Region Page v1](https://regionpage-v1.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 149 ms |
+| Templates | [Stuxedo Region Page v1](https://regionpage-v1.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 151 ms |
 | Templates | [Stuxedo Instance Page v1](https://instancepage-v1.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 143 ms |
 | Templates | [Stuxedo Soonpage v1](https://soonpage-v1.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 138 ms |
 | Templates | [Stuxedo Maintenancepage v1](https://maintenancepage-v1.stuxedo.net/) | Up | 100.00% | 100.00% | 100.00% | 139 ms |
